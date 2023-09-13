@@ -168,6 +168,7 @@ class CountryCodePickerState extends State<CountryCodePicker> {
         onTap: showCountryCodePickerDialog,
         splashColor: Colors.transparent,
         highlightColor: Colors.transparent,
+        focusColor: Colors.transparent,
         child: widget.builder!(selectedItem),
       );
     } else {
