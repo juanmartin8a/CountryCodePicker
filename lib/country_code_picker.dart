@@ -169,6 +169,7 @@ class CountryCodePickerState extends State<CountryCodePicker> {
         splashColor: Colors.transparent,
         highlightColor: Colors.transparent,
         focusColor: Colors.transparent,
+        hoverColor: Colors.transparent,
         child: widget.builder!(selectedItem),
       );
     } else {
