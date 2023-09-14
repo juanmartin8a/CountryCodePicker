@@ -54,10 +54,7 @@ class SelectionDialog extends StatefulWidget {
     this.closeIcon,
     this.dialogItemPadding = const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
     this.searchPadding = const EdgeInsets.symmetric(horizontal: 24),
-  })  : searchDecoration = searchDecoration.prefixIcon == null
-            ? searchDecoration.copyWith(prefixIcon: const Icon(Icons.search))
-            : searchDecoration,
-        super(key: key);
+  }) : super(key: key);
 
   @override
   State<StatefulWidget> createState() => _SelectionDialogState();
