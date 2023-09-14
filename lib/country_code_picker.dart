@@ -172,7 +172,10 @@ class CountryCodePickerState extends State<CountryCodePicker> {
     if (widget.builder != null) {
       internalWidget = GestureDetector(
         onTap: showCountryCodePickerDialog,
-        child: widget.builder!(selectedItem),
+        child: Container(
+          color: Colors.transparent,
+          child: widget.builder!(selectedItem),
+        )
       );
     } else {
       internalWidget = TextButton(
