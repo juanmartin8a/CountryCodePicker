@@ -39,7 +39,7 @@ class SelectionDialog extends StatefulWidget {
     Key? key,
     this.showCountryOnly,
     this.emptySearchBuilder,
-    InputDecoration searchDecoration = const InputDecoration(),
+    this.searchDecoration = const InputDecoration(),
     this.searchStyle,
     this.textStyle,
     this.boxDecoration,
